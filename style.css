@@ -1,0 +1,202 @@
+body{
+    background-color: antiquewhite;
+    list-style: none;
+}
+
+.logo{
+    padding-right: 35px;
+}
+
+
+.bali{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: darkgreen;
+
+}
+
+.pizzaria{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: red;
+}
+
+
+*{
+    list-style: none;
+}
+
+.itens{
+    text-decoration: none;
+    color: black;
+    display: flex;
+    flex-flow: wrap row;
+    margin: 0px;
+    padding: 10px;
+    box-sizing: border-box;
+    flex-direction: row;
+    
+    
+    
+    
+}
+
+.navegacao{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    transition: all 0.5s;
+    list-style: none;
+    width: 100%;
+    box-shadow: 0 0.3rem 0.8rem #e7dede;
+    
+    
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+    font-size: 1.5rem;
+    margin-left: 80px;
+
+}
+
+.itens:hover{
+    transform: scale(1.2);
+    padding: 18px;
+    color: darkgreen;
+
+}
+
+#mouse:hover{
+    transform: scale(1.2);
+    padding: 18px;
+    color: red;
+}
+
+.section{
+    width: 775px;
+    padding-left: 115px;
+}
+
+.texto{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: 76px;
+    margin-top: 62px;
+    align-content: center;
+    
+}
+
+.apresentacao, .apresentacao_2, .apresentacao_3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: darkgreen;
+    margin: 0px;
+}
+
+.apresentacao{
+    justify-content: flex-start;
+    margin-top: 20px;
+    margin-bottom: 18px;
+}
+
+.apresentacao_2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: brown;
+    margin-bottom: 25px;
+}
+
+.div_texto{
+    display: grid;
+    align-items: center;
+
+
+}
+
+.div_button{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-top: 30px;
+    margin-right: 92px;
+
+}
+
+.button{
+    border-radius: 15px;
+    padding: 15px;
+    background-color: rgb(230, 189, 137);
+    color: red;
+    font-size: 15px;
+    cursor: pointer;
+
+}
+
+.button:hover{
+    transform: scale(1.2 , 1.2);
+    transition: all 0.3s;
+    color: darkred;
+}
+
+aside{
+    display: flex;
+    box-sizing: border-box;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+    width: 800px;
+    margin-top: 62px;
+}
+
+.carrossel{
+    box-shadow: 2px 2px 4px black;
+    overflow: hidden;
+    height: 400px;
+    width: 500px;
+}
+
+.conteiner{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    
+}
+
+#main{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+footer{
+    background-color: brown;
+    margin-top: 125px;
+    color: antiquewhite;
+    height: 122px;
+}
+
+.contatos{
+    margin: auto;
+    text-align: center;
+    padding: 0.5px 0px 0.5px 0px;
+    height: 100%;
+}
